@@ -13,6 +13,7 @@ setup(
                 "kernels/dilation.cu",
                 "kernels/erosion.cu",
                 "kernels/module.cpp",
+                "kernels/histogram_equalization.cu",
             ],
             extra_compile_args={"cxx": ["-O2"]},
         ),
